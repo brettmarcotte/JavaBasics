@@ -6,10 +6,12 @@ public class Main {
         String firstName = "Brett";
         String lastName = "Marcotte";
         String fullName = lastName + firstName;
-
+        System.out.println(fullName);
         return fullName;
 
     }
-
+    public static String createFullName(String fName, String lName){
+       return null;
+    }
 
 }
