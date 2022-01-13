@@ -1,10 +1,22 @@
-package com.company;
+package com.company.sayhello;
+
+import java.util.Scanner;
 
 public class Main {
+    public static void whatIsYourName(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.nextLine();
 
-    public static void main(String[] args) {
-        Car carInfo1 = new Car("VolksWagen", "Beetle", 100_000, 80);
-        Car carInfo2 = new Car("Ford", "Mustang", 75_000 , 72);
-        Car carInfo3 = new Car("Tesla", "ModeS", 65_000, 68);
+        System.out.println("your first name is " + name);
+
+    }
+
+    public static void whatIsYourLastName(){
+        Scanner scanner = new Scanner(System.in);
+
+        String firstName = scanner.nextLine();
+        String lastName = scanner.nextLine();
+        System.out.println("It is nice to formally meet you " + firstName + lastName);
     }
 }
