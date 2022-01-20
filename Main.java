@@ -12,7 +12,7 @@ public class Main {
 
     }
 
-    public static void whatIsYourLastName(){
+    public static void whatIsYourFullName(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("What is your first name?");
