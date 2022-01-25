@@ -1,26 +1,27 @@
-package com.company.sayhello;
+package com.company.createanobject;
 
 import java.util.Scanner;
 
 public class Main {
-    public static void whatIsYourName(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Name: ");
-        String name = scanner.nextLine();
 
-        System.out.println("your name is " + name);
+    public static void main(Strings[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to: Create and Animal");
+
+        System.out.println("Enter a Species\nInput: ");
+        String speciesInput;
+
+        System.out.println("How many legs?\nInput: ");
+        short legsInput;
+
+        System.out.println("Does the animal live on land\nInput: ");
+        boolean livesOnLandInput;
+
+
 
     }
 
-    public static void whatIsYourFullName(){
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("What is your first name?");
-        System.out.println("What is your last name?");
 
-        String firstName = scanner.nextLine();
-        String lastName = scanner.nextLine();
-        System.out.println("It is nice to formally meet you " + firstName + lastName);
-
-    }
 }
