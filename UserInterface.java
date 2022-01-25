@@ -27,9 +27,9 @@ public class UserInterface {
         long userInput5 = scanner.nextLong();
         System.out.println("your phone number is " + userInput5);
 
-        System.out.println("What is Etherum's value");
+        System.out.println("What is Ethereum's value");
         double userInput6 = scanner.nextDouble();
-        System.out.println("Etherum is at " + userInput6);
+        System.out.println("Ethereum is at " + userInput6);
 
         System.out.println("What is the weather?");
         boolean userInput7 = scanner.nextBoolean();
