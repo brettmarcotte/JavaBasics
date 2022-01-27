@@ -6,6 +6,11 @@ public class Country {
     public long population;
     public String capital;
 
+    public Country(String countryName, long population, String countryCapital) {
+
+    }
+
+
     public void country (String name, long population, String capital){
         this.name = name;
         this.population = population;
