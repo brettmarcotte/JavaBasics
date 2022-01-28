@@ -6,12 +6,13 @@ public class Movie {
     public float runtimeInMin;
     public boolean hasBeenReleased;
 
-    public void movie (String title, String director, float runtimeInMin, boolean hasBeenReleased){
+    public Movie(String title, String director, float runtimeInMin, boolean hasBeenReleased) {
         this.title = title;
         this.director = director;
         this.runtimeInMin = runtimeInMin;
         this.hasBeenReleased = hasBeenReleased;
     }
+
 
     @Override
     public String toString() {

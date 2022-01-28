@@ -11,7 +11,7 @@ public class Country {
     }
 
 
-    public void country (String name, long population, String capital){
+    public void Country(String name, long population, String capital){
         this.name = name;
         this.population = population;
         this.capital = capital;
